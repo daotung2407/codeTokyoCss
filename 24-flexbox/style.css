@@ -1,0 +1,16 @@
+
+.container{
+    display: flex;
+    background: lightgray;
+    margin-bottom: 20px;
+}
+
+.child-1{
+    background: red;
+    width: 200px;
+    order: 1;
+}
+.child-2{
+    background: green;
+    width: 160px;
+}

@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    background: lightgray;
+    margin-bottom: 20px;
+}
+.container > div{
+    background: gray;
+}
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+    /*space-around;khoảng cách giữa các phần tử chia đều và gấp đôi khoảng cách lề trai lề phải*/
+    /*space-between chia đều khoảng cách giữa các phần tử với nhau và không cách lề trai lề phải*/
+    /*space-evenly chia đều khoảng cách lề trái lề phải và khoảng cách giữa các phần từ bằng nhau*/
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-evenly{
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: stretch;
+    /*align-items căn chỉnh element con theo hướng vuông góc với hướng hiện tại của nó
+mặc đinh là align-items: stretch (stretch sẽ có chiều dài bằng chiều dài thằng cha)*/
+}
+.
+
